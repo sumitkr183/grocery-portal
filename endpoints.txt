@@ -1,0 +1,50 @@
+secret_key = key-bziseiwn32nb83nwd
+
+1. Endpoint for fetch Products
+
+- BASE_URL/api/fetch-products
+	
+Request Parameter:-
+Method : POST
+
+Parameters:-
+- secret_key
+
+
+
+2.Endpoint for Add Products
+
+- BASE_URL/api/add-product
+
+Request Parameters:-
+Method: POST
+
+Paramerte:-
+- secret_key
+- file (for upload image)
+- name
+- price
+- category
+- user_id (for authenticate products added by default register admin id: 10)
+
+
+
+3. Endpoint for Edit Products
+
+- BASE_URL/api/update-product
+
+Request Parameters:-
+Method: POST
+
+Parameters:-
+- secret_key
+- file (for upload image) *not required if you don't want to update image
+- name
+- price
+- category
+- user_id (for authenticate products added by default register admin id: 10)
+- id (Products ID)
+
+
+
+

@@ -1,0 +1,33 @@
+
+.form-cover{
+	width: 100%;
+	height: auto;
+	padding: 20px 20px;
+	background: #fff;
+	margin-top: 12rem;
+	border: 1px solid rgba(0,0,0,.1);
+}
+
+.form-cover2{
+	width: 100%;
+	height: auto;
+	padding: 20px 20px;
+	background: #fff;
+	margin-top: 6rem;
+	border: 1px solid rgba(0,0,0,.1);
+}
+
+.form-cover h3,
+.form-cover2 h3{
+	margin-top: 0px;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.mg-5{
+	margin-top: 15px;
+}
+
+.add-header{
+	margin-top: 5rem;
+}
